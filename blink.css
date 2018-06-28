@@ -1,0 +1,18 @@
+/* blink animation */
+@-webkit-keyframes blink_1 {50% {opacity: 0;} 100% {opacity: 1;}}
+@keyframes blink_1 {50% {opacity: 0;} 100% {opacity: 1;}}
+
+@-webkit-keyframes blink_2 {75% {opacity: 0;}}
+@keyframes blink_2 {75% {opacity: 0;}}
+
+@-webkit-keyframes blink_3 {0% {opacity: 0;} 50% {opacity: 1;} 60% {opacity: 0;} 70% {opacity: 1;}}
+@keyframes blink_3 {0% {opacity: 0;} 50% {opacity: 1;} 60% {opacity: 0;} 70% {opacity: 1;}}
+
+@-webkit-keyframes blink_4 {50% {opacity: 1;} 60% {opacity: 0;} 70% {opacity: 1;} 80% {opacity: 0;} 90% {opacity: 1;}}
+@keyframes blink_4 {50% {opacity: 1;} 60% {opacity: 0;} 70% {opacity: 1;} 80% {opacity: 0;} 90% {opacity: 1;}}
+
+@-webkit-keyframes blink_5 {50% {opacity: 0; -webkit-animation-timing-function: step-end;}}
+@keyframes blink_5 {50% {opacity: 0; animation-timing-function: step-end;}}
+
+@-webkit-keyframes blink_6 {0% {-webkit-animation-timing-function: step-end;} 50% {opacity: 0; -webkit-animation-timing-function: step-end;}}
+@keyframes blink_6 {0% {animation-timing-function: step-end;} 50% {opacity: 0; animation-timing-function: step-end;}}
