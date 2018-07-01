@@ -1,0 +1,15 @@
+/* rorate animation draft */
+@-webkit-keyframes rotate_1 {0% {-webkit-transform: rotate(0deg);} 100% {-webkit-transform: rotate(360deg);}}
+@keyframes rotate_1 {0% {transform: rotate(0deg);} 100% {transform: rotate(360deg);}}
+
+@-webkit-keyframes rotate_2 {0% {-webkit-transform: rotate(0deg); -webkit-animation-timing-function: ease-in-out;} 100% {-webkit-transform: rotate(360deg);}}
+@keyframes rotate_2 {0% {transform: rotate(0deg); animation-timing-function: ease-in-out;} 100% {transform: rotate(360deg);}}
+
+@-webkit-keyframes rotate_3 {0% {-webkit-transform: rotate(0deg);} 25% {-webkit-transform: rotate(0deg);} 75% {-webkit-transform: rotate(360deg);} 100% {-webkit-transform: rotate(360deg);}}
+@keyframes rotate_3 {0% {transform: rotate(0deg);} 25% {transform: rotate(0deg);} 75% {transform: rotate(360deg);} 100% {transform: rotate(360deg);}}
+
+@-webkit-keyframes rotate_4 {0% {-webkit-transform: rotate(0deg); -webkit-animation-timing-function: cubic-bezier(0, 1, 0.5, 1);} 100% {-webkit-transform: rotate(360deg);}}
+@keyframes rotate_4 {0% {transform: rotate(0deg); animation-timing-function: cubic-bezier(0, 1, 0.5, 1);} 100% {transform: rotate(360deg);}}
+
+@-webkit-keyframes rotate_5 {0% {-webkit-transform: rotate(0deg);} 70% {-webkit-transform: rotate(380deg); -webkit-animation-timing-function: cubic-bezier(0, 0.7, 0.7, 1);} 80% {-webkit-transform: rotate(360deg);} 100% {-webkit-transform: rotate(360deg);}}
+@keyframes rotate_5 {0% {transform: rotate(0deg);} 70% {transform: rotate(380deg); animation-timing-function: cubic-bezier(0, 0.7, 0.7, 1);} 80% {transform: rotate(360deg);} 100% {transform: rotate(360deg);}}

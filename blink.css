@@ -1,4 +1,4 @@
-/* blink animation */
+/* blink animation draft */
 @-webkit-keyframes blink_1 {50% {opacity: 0;} 100% {opacity: 1;}}
 @keyframes blink_1 {50% {opacity: 0;} 100% {opacity: 1;}}
 
@@ -16,3 +16,6 @@
 
 @-webkit-keyframes blink_6 {0% {-webkit-animation-timing-function: step-end;} 50% {opacity: 0; -webkit-animation-timing-function: step-end;}}
 @keyframes blink_6 {0% {animation-timing-function: step-end;} 50% {opacity: 0; animation-timing-function: step-end;}}
+
+@-webkit-keyframes blink_7 {50% {opacity: 0; -webkit-animation-timing-function: step-start;}}
+@keyframes blink_7 {50% {opacity: 0; animation-timing-function: step-start;}}
