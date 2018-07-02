@@ -15,3 +15,11 @@ I will create npm it as soon as it is just completed.
 * blink_5
 * blink_6
 * blink_7
+
+## rotate(draft)
+
+* rotate_1
+* rotate_2
+* rotate_3
+* rotate_4
+* rotate_5
