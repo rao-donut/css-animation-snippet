@@ -1,0 +1,116 @@
+/* vibration animation draft */
+@-webkit-keyframes vibration_1 {
+  0% {-webkit-transform: translateY(0);}
+  5% {-webkit-transform: translateY(5%);}
+  15% {-webkit-transform: translateY(-5%)}
+  25% {-webkit-transform: translateY(5%);}
+  35% {-webkit-transform: translateY(-5%)}
+  45% {-webkit-transform: translateY(5%);}
+  55% {-webkit-transform: translateY(-5%)}
+  65% {-webkit-transform: translateY(5%);}
+  75% {-webkit-transform: translateY(-5%)}
+  85% {-webkit-transform: translateY(5%);}
+  95% {-webkit-transform: translateY(-5%)}
+  100% {-webkit-transform: translateY(0);}
+}
+@keyframes vibration_1 {
+  0% {transform: translateY(0);}
+  5% {transform: translateY(5%);}
+  15% {transform: translateY(-5%)}
+  25% {transform: translateY(5%);}
+  35% {transform: translateY(-5%)}
+  45% {transform: translateY(5%);}
+  55% {transform: translateY(-5%)}
+  65% {transform: translateY(5%);}
+  75% {transform: translateY(-5%)}
+  85% {transform: translateY(5%);}
+  95% {transform: translateY(-5%)}
+  100% {transform: translateY(0);}
+}
+
+@-webkit-keyframes vibration_2 {
+  0% {-webkit-transform: translateX(0);}
+  5% {-webkit-transform: translateX(5%);}
+  15% {-webkit-transform: translateX(-5%)}
+  25% {-webkit-transform: translateX(5%);}
+  35% {-webkit-transform: translateX(-5%)}
+  45% {-webkit-transform: translateX(5%);}
+  55% {-webkit-transform: translateX(-5%)}
+  65% {-webkit-transform: translateX(5%);}
+  75% {-webkit-transform: translateX(-5%)}
+  85% {-webkit-transform: translateX(5%);}
+  95% {-webkit-transform: translateX(-5%)}
+  100% {-webkit-transform: translateX(0);}
+}
+@keyframes vibration_2 {
+  0% {transform: translateX(0);}
+  5% {transform: translateX(5%);}
+  15% {transform: translateX(-5%)}
+  25% {transform: translateX(5%);}
+  35% {transform: translateX(-5%)}
+  45% {transform: translateX(5%);}
+  55% {transform: translateX(-5%)}
+  65% {transform: translateX(5%);}
+  75% {transform: translateX(-5%)}
+  85% {transform: translateX(5%);}
+  95% {transform: translateX(-5%)}
+  100% {transform: translateX(0);}
+}
+
+@-webkit-keyframes vibration_3 {
+  0% {-webkit-transform: translateY(0);}
+  5% {-webkit-transform: translateY(15%);}
+  15% {-webkit-transform: translateY(-13%)}
+  25% {-webkit-transform: translateY(11%);}
+  35% {-webkit-transform: translateY(-9%)}
+  45% {-webkit-transform: translateY(7%);}
+  55% {-webkit-transform: translateY(-5%)}
+  65% {-webkit-transform: translateY(3%);}
+  75% {-webkit-transform: translateY(-1%)}
+  85% {-webkit-transform: translateY(0.5%);}
+  95% {-webkit-transform: translateY(-0.25%)}
+  100% {-webkit-transform: translateY(0);}
+}
+@keyframes vibration_3 {
+  0% {transform: translateY(0);}
+  5% {transform: translateY(15%);}
+  15% {transform: translateY(-13%)}
+  25% {transform: translateY(11%);}
+  35% {transform: translateY(-9%)}
+  45% {transform: translateY(7%);}
+  55% {transform: translateY(-5%)}
+  65% {transform: translateY(3%);}
+  75% {transform: translateY(-1%)}
+  85% {transform: translateY(0.5%);}
+  95% {transform: translateY(-0.25%)}
+  100% {transform: translateY(0);}
+}
+
+@-webkit-keyframes vibration_4 {
+  0% {-webkit-transform: translateX(0);}
+  5% {-webkit-transform: translateX(15%);}
+  15% {-webkit-transform: translateX(-13%)}
+  25% {-webkit-transform: translateX(11%);}
+  35% {-webkit-transform: translateX(-9%)}
+  45% {-webkit-transform: translateX(7%);}
+  55% {-webkit-transform: translateX(-5%)}
+  65% {-webkit-transform: translateX(3%);}
+  75% {-webkit-transform: translateX(-1%)}
+  85% {-webkit-transform: translateX(0.5%);}
+  95% {-webkit-transform: translateX(-0.25%)}
+  100% {-webkit-transform: translateX(0);}
+}
+@keyframes vibration_4 {
+  0% {transform: translateX(0);}
+  5% {transform: translateX(15%);}
+  15% {transform: translateX(-13%)}
+  25% {transform: translateX(11%);}
+  35% {transform: translateX(-9%)}
+  45% {transform: translateX(7%);}
+  55% {transform: translateX(-5%)}
+  65% {transform: translateX(3%);}
+  75% {transform: translateX(-1%)}
+  85% {transform: translateX(0.5%);}
+  95% {transform: translateX(-0.25%)}
+  100% {transform: translateX(0);}
+}
