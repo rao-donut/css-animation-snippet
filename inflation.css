@@ -1,28 +1,47 @@
 /* inflation animation draft */
+@-webkit-keyframes inflation_1 {
+  50% {-webkit-transform: scale(1.2);}
+  100% {-webkit-transform: scale(1);}
+}
 @keyframes inflation_1 {
-  0% {transform: scale(1);}
   50% {transform: scale(1.2);}
   100% {transform: scale(1);}
 }
 
+@-webkit-keyframes inflation_2 {
+  15% {-webkit-transform: scale(1.1);}
+  35% {-webkit-transform: scale(1); animation-timing-function: cubic-bezier(0, 0.5, 0.5, 1);}
+  50% {-webkit-transform: scale(1.4); animation-timing-function: cubic-bezier(0, 0.8, 1, 0.8);}
+  100% {-webkit-transform: scale(1);}
+}
 @keyframes inflation_2 {
-  0% {transform: scale(1);}
   15% {transform: scale(1.1);}
   35% {transform: scale(1); animation-timing-function: cubic-bezier(0, 0.5, 0.5, 1);}
   50% {transform: scale(1.4); animation-timing-function: cubic-bezier(0, 0.8, 1, 0.8);}
   100% {transform: scale(1);}
 }
 
+@-webkit-keyframes inflation_3 {
+  0% {-webkit-animation-timing-function: cubic-bezier(0, 0.6, 0.6, 1);}
+  20% {-webkit-transform: scale(1.3); -webkit-animation-timing-function: cubic-bezier(0.8, 0, 1, 0.6);}
+}
 @keyframes inflation_3 {
   0% {animation-timing-function: cubic-bezier(0, 0.6, 0.6, 1);}
   20% {transform: scale(1.3); animation-timing-function: cubic-bezier(0.8, 0, 1, 0.6);}
 }
 
+@-webkit-keyframes inflation_4 {
+  0% {-webkit-animation-timing-function: cubic-bezier(0.8, 0, 0.7, 1);}
+  80% {-webkit-transform: scale(1.3);}
+}
 @keyframes inflation_4 {
   0% {animation-timing-function: cubic-bezier(0.8, 0, 0.7, 1);}
   80% {transform: scale(1.3);}
 }
 
-@keyframes  inflation_5 {
+@-webkit-keyframes inflation_5 {
+  100% {-webkit-transform: scale(1.3);}
+}
+@keyframes inflation_5 {
   100% {transform: scale(1.3);}
 }
