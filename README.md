@@ -23,3 +23,18 @@ I will create npm it as soon as it is just completed.
 * rotate_3
 * rotate_4
 * rotate_5
+
+## vibration(draft)
+
+* vibration_1
+* vibration_2
+* vibration_3
+* vibration_4
+
+## inflation(draft)
+
+* inflation_1
+* inflation_2
+* inflation_3
+* inflation_4
+* inflation_5
