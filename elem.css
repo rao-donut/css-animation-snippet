@@ -1,0 +1,81 @@
+.elem {
+  display: table-cell;
+  width: 100px;
+  height: 100px;
+  vertical-align: middle;
+  text-align: center;
+  border: 1px solid black;
+  background-color: #d55;
+}
+
+.blink_1 {
+  animation: blink_1 1s infinite;
+}
+.blink_2 {
+  animation: blink_2 1s infinite;
+}
+.blink_3 {
+  animation: blink_3 1s infinite;
+}
+.blink_4 {
+  animation: blink_4 1s infinite;
+}
+.blink_5 {
+  animation: blink_5 1s infinite;
+}
+.blink_6 {
+  animation: blink_6 1s infinite;
+}
+.blink_7 {
+  animation: blink_7 1s infinite;
+}
+.rotate {
+  border-collapse: separate;
+  border-spacing: 5px 5px;
+}
+.rotate_1 {
+  animation: rotate_1 1s infinite;
+}
+.rotate_2 {
+  animation: rotate_2 1s infinite;
+}
+.rotate_3 {
+  animation: rotate_3 1s infinite;
+}
+.rotate_4 {
+  animation: rotate_4 1s infinite;
+}
+.rotate_5 {
+  animation: rotate_5 1s infinite;
+}
+.vibration {
+  border-collapse: separate;
+  border-spacing: 5px 5px;
+}
+.vibration_1 {
+  animation: vibration_1 1s infinite;
+}
+.vibration_2 {
+  animation: vibration_2 1s infinite;
+}
+.vibration_3 {
+  animation: vibration_3 1s infinite;
+}
+.vibration_4 {
+  animation: vibration_4 1s infinite;
+}
+.inflation_1 {
+  animation: inflation_1 1s infinite;
+}
+.inflation_2 {
+  animation: inflation_2 1s infinite;
+}
+.inflation_3 {
+  animation: inflation_3 1s infinite;
+}
+.inflation_4 {
+  animation: inflation_4 1s infinite;
+}
+.inflation_5 {
+  animation: inflation_5 1s infinite;
+}
