@@ -47,5 +47,9 @@ I will create npm it as soon as it is just completed.
 * jump_4
 
 ## fade(draft)
+
+* fade_1
+* fade_2
+
 ## bounce(draft)
 ## steps(draft)
