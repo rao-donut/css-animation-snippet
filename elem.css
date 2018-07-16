@@ -91,3 +91,9 @@
 .jump_4 {
   animation: jump_4 1s infinite;
 }
+.fade_1 {
+  animation: fade_1 1s forwards;
+}
+.fade_2 {
+  animation: fade_2 1s forwards;
+}
