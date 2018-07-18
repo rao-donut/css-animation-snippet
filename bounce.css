@@ -1,0 +1,20 @@
+/* bounce animation draft */
+@keyframes bounce_X {
+  0% {left: 0;}
+  100% {left: 100px;}
+}
+
+@-webkit-keyframes bounce_1 {
+  0% {-webkit-animation-timing-function: cubic-bezier(0.68, 0, 1, 1);}
+  25% {-webkit-transform: translateY(100px); -webkit-animation-timing-function: cubic-bezier(0, 0, 0.25, 1);}
+  50% {-webkit-transform: translateY(50px); -webkit-animation-timing-function: ease-in;}
+  75% {-webkit-transform: translateY(100px);}
+  100% {-webkit-transform: translateY(100px);}
+}
+@keyframes bounce_1 {
+  0% {animation-timing-function: cubic-bezier(0.68, 0, 1, 1);}
+  25% {transform: translateY(100px); animation-timing-function: cubic-bezier(0, 0, 0.25, 1);}
+  50% {transform: translateY(50px); animation-timing-function: ease-in;}
+  75% {transform: translateY(100px);}
+  100% {transform: translateY(100px);}
+}

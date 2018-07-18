@@ -97,3 +97,7 @@
 .fade_2 {
   animation: fade_2 1s forwards;
 }
+.bounce_1 {
+  position: absolute;
+  animation: bounce_X 2s 0s infinite, bounce_1 2s 0s infinite;
+}

@@ -52,4 +52,7 @@ I will create npm it as soon as it is just completed.
 * fade_2
 
 ## bounce(draft)
+
+* bounce_1
+
 ## steps(draft)
