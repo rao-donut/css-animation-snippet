@@ -53,6 +53,6 @@ I will create npm it as soon as it is just completed.
 
 ## bounce(draft)
 
-* bounce_1
+* bounce_1(base: bounce_X)
 
 ## steps(draft)
