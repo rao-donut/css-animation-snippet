@@ -1,10 +1,12 @@
-# css-animation-snippet
+# css-animation-snippet(draft)
 
 Simple css animation snippets.
 
 Update every day.
 
 I will create npm it as soon as it is just completed.
+
+A supported prefix : -webkit-
 
 ## blink(draft)
 
