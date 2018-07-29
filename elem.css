@@ -101,3 +101,6 @@
   position: absolute;
   animation: bounce_X 2s 0s infinite, bounce_1 2s 0s infinite;
 }
+.circle_1 {
+  animation: circle_1 5s linear infinite;
+}
