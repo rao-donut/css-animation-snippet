@@ -104,3 +104,9 @@
 .circle_1 {
   animation: circle_1 5s linear infinite;
 }
+.circle_2 {
+  animation: circle_2 5s linear infinite;
+}
+.circle_3 {
+  animation: circle_3 5s linear infinite;
+}
