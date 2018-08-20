@@ -1,0 +1,31 @@
+/* move animation draft */
+@-webkit-keyframes move_1 {
+  100% {-webkit-transform: translateX(300%);}
+}
+@keyframes move_1 {
+  100% {transform: translateX(300%);}
+}
+@-webkit-keyframes move_2 {
+  0% {-webkit-animation-timing-function: ease-out;}
+  100% {-webkit-transform: translateX(300%);}
+}
+@keyframes move_2 {
+  0% {animation-timing-function: ease-out;}
+  100% {transform: translateX(300%);}
+}
+@-webkit-keyframes move_3 {
+  0% {-webkit-animation-timing-function: ease-in;}
+  100% {-webkit-transform: translateX(300%);}
+}
+@keyframes move_3 {
+  0% {animation-timing-function: ease-in;}
+  100% {transform: translateX(300%);}
+}
+@-webkit-keyframes move_4 {
+  0% {-webkit-animation-timing-function: ease-in-out;}
+  100% {-webkit-transform: translateX(300%);}
+}
+@keyframes move_4 {
+  0% {animation-timing-function: ease-in-out;}
+  100% {transform: translateX(300%);}
+}

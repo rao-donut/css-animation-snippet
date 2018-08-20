@@ -63,4 +63,11 @@ A supported prefix : -webkit-
 * circle_2
 * circle_3
 
+## move(draft)
+
+* move_1
+* move_2
+* move_3
+* move_4
+
 ## steps(draft)

@@ -110,3 +110,19 @@
 .circle_3 {
   animation: circle_3 5s linear infinite;
 }
+.move_1 {
+  display: block;
+  animation: move_1 1s linear infinite;
+}
+.move_2 {
+  display: block;
+  animation: move_2 1s linear infinite;
+}
+.move_3 {
+  display: block;
+  animation: move_3 1s linear infinite;
+}
+.move_4 {
+  display: block;
+  animation: move_4 1s linear infinite;
+}
