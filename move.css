@@ -29,3 +29,15 @@
   0% {animation-timing-function: ease-in-out;}
   100% {transform: translateX(300%);}
 }
+@-webkit-keyframes move_5 {
+  0% {-webkit-animation-timing-function: ease-out;}
+  40% {-webkit-transform: translateX(150%);}
+  60% {-webkit-transform: translateX(150%); -webkit-animation-timing-function: ease-in;}
+  100% {-webkit-transform: translateX(300%);}
+}
+@keyframes move_5 {
+  0% {animation-timing-function: ease-out;}
+  40% {transform: translateX(150%);}
+  60% {transform: translateX(150%); animation-timing-function: ease-in;}
+  100% {transform: translateX(300%);}
+}

@@ -126,3 +126,11 @@
   display: block;
   animation: move_4 1s linear infinite;
 }
+.move_5 {
+  display: block;
+  animation: move_5 1s linear infinite;
+}
+.move_6 {
+  display: block;
+  animation: move_1 1s steps(10) infinite;
+}
