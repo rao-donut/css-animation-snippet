@@ -48,6 +48,9 @@
 .rotate_5 {
   animation: rotate_5 1s infinite;
 }
+.rotate_6 {
+  animation: rotate_6 3s infinite;
+}
 .vibration {
   border-collapse: separate;
   border-spacing: 5px 5px;
